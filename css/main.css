@@ -1,0 +1,101 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:500);
+
+body {
+	font-family: Raleway, sans-serif;
+/*	background-image: url(/sci/img/aunja_logo.jpg);
+	background-repeat: no-repeat;
+	background-size: 250px 250px;
+	background-position: center; */
+}
+
+#logo {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#main_table {
+	height: 300px;
+	text-align: center;
+	width: 100%;
+	position: relative;
+
+}
+
+#main_table:after {
+  background: url(/sci/img/logo.jpg);
+  opacity: 0.20;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  content: "";
+ background-repeat:no-repeat;
+background-position: center center;
+
+}
+
+
+#main_table table {
+	max-width:300px;
+	margin:auto;
+}
+
+h1 {
+	font-size: 18px;
+	font-weight: bold;
+	text-shadow: 0px 0px 1px rgba(0,0,0,1);
+}
+
+#bitcoin-price {
+	border-radius: 8px;
+	background: rgba(255,185,85, 0.75);
+	color: #FFF;
+	padding: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	cursor: pointer;
+}
+
+.currency_text {
+	width: 80px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 4px;
+	padding: 4px;
+	border-radius: 8px;
+	border: 1px solid rgba(0,0,0,0.5);
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 12px;
+}
+
+#amount_input {
+	background: rgba(255,185,85, 0.75);
+	color: #FFF;
+	border: none;
+}
+
+#note {
+	width: 260px;
+	height: 60px;
+	resize: none;
+	margin-top: 10px;
+	border-radius: 5px;
+	border: 1px solid rgba(0,0,0,0.25);
+}
+
+#submit_btn {
+	width: 260px;
+	height: 35px;
+	border: 1px solid #5E91FF;
+	border-radius: 5px;
+	border-collapse: collapse;
+	background: #5EAFFF;
+	color: #FFF;
+	font-size: 15px;
+	cursor: pointer;
+	padding-bottom: 5px;
+}

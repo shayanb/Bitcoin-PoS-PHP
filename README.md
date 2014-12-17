@@ -40,7 +40,7 @@ to be used on the first time to generate the RSA keys, and also in case you want
 **sci/report.php**
 A simple report page that shows all the confirmed transactions in the database
 
-![alt text](https://github.com/shayanb/Bitcoin-PoS-PHP/docs/report.png "Report Page")
+![alt text](https://github.com/shayanb/Bitcoin-PoS-PHP/raw/master/docs/report.png "Report Page")
 
 **sci/superadmin.php**
 Almost same as report.php but has the option to rescan the whole database to check the balances or just checks the temporary table to see if there was any transactions that has not been added to the final table, also you can __extract all the bitcoin private keys assosiated with the addresses that has balance in them__ with MultiBit.key style.
@@ -65,8 +65,8 @@ NOTE: if you do not have 5.3 installed and wish to use BitcoinSCI, open up lib/b
 PHPExtension BCMath must be installed (most webhosts have it enabled by default)
 
 ----------------------------------------------
-This project was done for a specific purpose, most of the funtionalities have the potencial to be a lot more complete. Any contribution is welcome.
-
+This project was done for a specific purpose, most of the funtionalities have the potencial to be a lot more complete. Any contribution is more than welcome.
+1ARH4G6BCKM8xoFucEtaKP3Vq5Ahr7dqcv
 
 ### Todo's
 

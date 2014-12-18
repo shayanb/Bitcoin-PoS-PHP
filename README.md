@@ -29,6 +29,7 @@ Installation
 4. visit URL/sci/admin.php
 5. Login with your __admin__ password from config.php
 6. Click RSA KeyGen. Save the private key offline in a safe place, put the public key in config.php
+7. (Optional) Add your logo to /sci/img/logo.jpg (or change the refrence in /css/main.css)
 Done!
 
 ----------------------------
@@ -65,7 +66,9 @@ NOTE: if you do not have 5.3 installed and wish to use BitcoinSCI, open up lib/b
 PHPExtension BCMath must be installed (most webhosts have it enabled by default)
 
 ----------------------------------------------
-This project was done for a specific purpose, most of the funtionalities have the potencial to be a lot more complete. Any contribution is more than welcome.
+This project was done for a specific purpose, most of the funtionalities have the potencial to be a lot more complete. 
+Contributions are more than welcome.
+
 1ARH4G6BCKM8xoFucEtaKP3Vq5Ahr7dqcv
 
 ### Todo's

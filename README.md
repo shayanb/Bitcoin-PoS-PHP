@@ -4,9 +4,12 @@
 
 Some features:
 * Easy to install (PHP and MySQL)
+* Real-time BTC/CAD(/USD) conversion
 * Uses Blockchain.info and Blockexplorer API (No need for Bitcoind)
 * Generates a new address for each transaction (Privacy Preserved)
 * RSA Encrypted private keys
+* Report page for the merchant, with showing the sales price and the realtime price of bitcoin amount
+* Admin page to decrypt and export the private keys associated with the addresses that holds a balance in MultiBit.key format
 
 
 ----------------------------------------
@@ -45,7 +48,7 @@ A simple report page that shows all the confirmed transactions in the database
 
 **sci/superadmin.php**
 Almost same as report.php but has the option to rescan the whole database to check the balances or just checks the temporary table to see if there was any transactions that has not been added to the final table, also you can __extract all the bitcoin private keys assosiated with the addresses that has balance in them__ with MultiBit.key style.
-You can easily save the output in a .key file and import it in [MultiBit].
+You can easily save the output in a .key file and import it in [MultiBit] or import it in blockchain.info.
 
 ------------
 Most of the core functionality is from Bitcoin SCI by Jacob Bruce.

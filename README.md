@@ -66,7 +66,8 @@ NOTE: if you do not have 5.3 installed and wish to use BitcoinSCI, open up lib/b
 PHPExtension BCMath must be installed (most webhosts have it enabled by default)
 
 ----------------------------------------------
-This project was done for a specific purpose, most of the funtionalities have the potencial to be a lot more complete. 
+This project was done to meet client's requirments, most of the funtionalities have the potencial to be a lot more complete or have another model for implementation (such as admin/report view)
+
 Contributions are more than welcome.
 
 1ARH4G6BCKM8xoFucEtaKP3Vq5Ahr7dqcv

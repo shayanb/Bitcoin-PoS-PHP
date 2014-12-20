@@ -19,6 +19,7 @@ Open source projects used:
     -   [PHP Elliptic Curve library]
 * [Sweet Alert] : A Beautiful replacement for javascript's "Alert"
 * [bitcoin-prices] : Display bitcoin prices in human-friendly manner in fiat currency using bitcoinaverage.com market data
+
 ------------------
 Installation
 ===

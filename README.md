@@ -18,7 +18,7 @@ Open source projects used:
     -   [phpseclib]
     -   [PHP Elliptic Curve library]
 * [Sweet Alert] : A Beautiful replacement for javascript's "Alert"
-
+* [bitcoin-prices] : Display bitcoin prices in human-friendly manner in fiat currency using bitcoinaverage.com market data
 ------------------
 Installation
 ===
@@ -69,6 +69,15 @@ NOTE: if you do not have 5.3 installed and wish to use BitcoinSCI, open up lib/b
 PHPExtension BCMath must be installed (most webhosts have it enabled by default)
 
 ----------------------------------------------
+Screenshots
+===
+![alt text](https://github.com/shayanb/Bitcoin-PoS-PHP/raw/master/docs/First_View.png "First View - bitcoin-prices.js realtime price CAD/USD")
+
+![alt text](https://github.com/shayanb/Bitcoin-PoS-PHP/raw/master/docs/Payment_View.png "Payment View - Bitcoin SCI")
+
+![alt text](https://github.com/shayanb/Bitcoin-PoS-PHP/raw/master/docs/Success_View.png "Success View - SweetAlert")
+
+-----------------------------------------------
 This project was done to meet client's requirments, most of the funtionalities have the potencial to be a lot more complete or have another model for implementation (such as admin/report view)
 
 Contributions are more than welcome.
@@ -95,3 +104,4 @@ You may copy, distribute and modify the software as long as you track changes/da
 [PHP Elliptic Curve library]:http://matejdanter.com/
 [Cafe Aunja]:http://blog.theshayan.com/2014/10/23/have-your-coffee-with-bitcoin/
 [Multibit]: https://multibit.org/
+[bitcoin-prices]:https://github.com/miohtama/bitcoin-prices

@@ -151,7 +151,7 @@ if (!empty($_SESSION['admin_valid']) && ($_SESSION['admin_valid'] === true)) {
 	echo "<p><a href='admin.php?page=keys'>LIST KEYS</a><br />".
 	     "<a href='admin.php?page=rsagen'>RSA KEYGEN</a><br />".
 				"<a href='report.php'>Report Page(accessible Seperately)</a></p>".
-			"<a href='report_su.php'>Super User Report (Export key functionality)</a></p>".
+			"<a href='superadmin.php'>Super User Report (Export key functionality)</a></p>".
 		 "<a href='admin.php?page=logout'>LOGOUT</a></p>";
 		 
   } elseif ($_GET['page'] === 'keys') {
